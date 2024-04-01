@@ -56,7 +56,7 @@ function App() {
       </button>
       <Counter />
       <div className="container">
-        <h1 className="title">ToDoList</h1>
+        <h1 className="title">To Do List</h1>
         <span className="error">{error}</span>
         <Form putTodo={putTodo} handleChangeError={handleChangeError} />
         <ul className="todos">
